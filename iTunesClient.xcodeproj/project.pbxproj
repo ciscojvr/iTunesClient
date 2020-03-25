@@ -17,6 +17,7 @@
 		7417DA82242BF5A4005FED49 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417DA81242BF5A4005FED49 /* Genre.swift */; };
 		7417DA84242BF636005FED49 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417DA83242BF636005FED49 /* Album.swift */; };
 		7417DA86242BF947005FED49 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417DA85242BF947005FED49 /* Song.swift */; };
+		7417DA88242BFDAD005FED49 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417DA87242BFDAD005FED49 /* Stub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7417DA81242BF5A4005FED49 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		7417DA83242BF636005FED49 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		7417DA85242BF947005FED49 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		7417DA87242BFDAD005FED49 /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				7417DA81242BF5A4005FED49 /* Genre.swift */,
 				7417DA83242BF636005FED49 /* Album.swift */,
 				7417DA85242BF947005FED49 /* Song.swift */,
+				7417DA87242BFDAD005FED49 /* Stub.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				7417DA86242BF947005FED49 /* Song.swift in Sources */,
 				7417DA6D242BF3B0005FED49 /* ViewController.swift in Sources */,
 				7417DA69242BF3B0005FED49 /* AppDelegate.swift in Sources */,
+				7417DA88242BFDAD005FED49 /* Stub.swift in Sources */,
 				7417DA80242BF419005FED49 /* Artist.swift in Sources */,
 				7417DA6B242BF3B0005FED49 /* SceneDelegate.swift in Sources */,
 				7417DA82242BF5A4005FED49 /* Genre.swift in Sources */,
