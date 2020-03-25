@@ -13,6 +13,9 @@
 		7417DA70242BF3B0005FED49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7417DA6E242BF3B0005FED49 /* Main.storyboard */; };
 		7417DA72242BF3B1005FED49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7417DA71242BF3B1005FED49 /* Assets.xcassets */; };
 		7417DA75242BF3B1005FED49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7417DA73242BF3B1005FED49 /* LaunchScreen.storyboard */; };
+		7417DA80242BF419005FED49 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417DA7F242BF419005FED49 /* Artist.swift */; };
+		7417DA82242BF5A4005FED49 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417DA81242BF5A4005FED49 /* Genre.swift */; };
+		7417DA84242BF636005FED49 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417DA83242BF636005FED49 /* Album.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		7417DA71242BF3B1005FED49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7417DA74242BF3B1005FED49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7417DA76242BF3B1005FED49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7417DA7F242BF419005FED49 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		7417DA81242BF5A4005FED49 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		7417DA83242BF636005FED49 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		7417DA67242BF3B0005FED49 /* iTunesClient */ = {
 			isa = PBXGroup;
 			children = (
+				7417DA7E242BF3FF005FED49 /* Controllers */,
+				7417DA7D242BF3E2005FED49 /* Views */,
+				7417DA7C242BF3D5005FED49 /* Models */,
 				7417DA68242BF3B0005FED49 /* AppDelegate.swift */,
 				7417DA6A242BF3B0005FED49 /* SceneDelegate.swift */,
 				7417DA6C242BF3B0005FED49 /* ViewController.swift */,
@@ -65,6 +74,30 @@
 				7417DA76242BF3B1005FED49 /* Info.plist */,
 			);
 			path = iTunesClient;
+			sourceTree = "<group>";
+		};
+		7417DA7C242BF3D5005FED49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7417DA7F242BF419005FED49 /* Artist.swift */,
+				7417DA81242BF5A4005FED49 /* Genre.swift */,
+				7417DA83242BF636005FED49 /* Album.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7417DA7D242BF3E2005FED49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7417DA7E242BF3FF005FED49 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +173,10 @@
 			files = (
 				7417DA6D242BF3B0005FED49 /* ViewController.swift in Sources */,
 				7417DA69242BF3B0005FED49 /* AppDelegate.swift in Sources */,
+				7417DA80242BF419005FED49 /* Artist.swift in Sources */,
 				7417DA6B242BF3B0005FED49 /* SceneDelegate.swift in Sources */,
+				7417DA82242BF5A4005FED49 /* Genre.swift in Sources */,
+				7417DA84242BF636005FED49 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
