@@ -9,6 +9,10 @@
 import UIKit
 
 class AlbumListController: UITableViewController {
+    
+    private struct Constants {
+        static let AlbumCellHeight: CGFloat = 80
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,4 +35,11 @@ class AlbumListController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return 0
     }
+    
+    // MARK: – Table View Delegate
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return Constants.AlbumCellHeight
+    }
+    
+    
 }
