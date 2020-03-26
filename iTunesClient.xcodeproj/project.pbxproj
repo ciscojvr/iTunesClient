@@ -18,6 +18,7 @@
 		7417DA84242BF636005FED49 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417DA83242BF636005FED49 /* Album.swift */; };
 		7417DA86242BF947005FED49 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417DA85242BF947005FED49 /* Song.swift */; };
 		7417DA88242BFDAD005FED49 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417DA87242BFDAD005FED49 /* Stub.swift */; };
+		748E8341242D2BD6008BD098 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E8340242D2BD6008BD098 /* SearchResultsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		7417DA83242BF636005FED49 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		7417DA85242BF947005FED49 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		7417DA87242BFDAD005FED49 /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		748E8340242D2BD6008BD098 /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +73,6 @@
 				7417DA7C242BF3D5005FED49 /* Models */,
 				7417DA68242BF3B0005FED49 /* AppDelegate.swift */,
 				7417DA6A242BF3B0005FED49 /* SceneDelegate.swift */,
-				7417DA6C242BF3B0005FED49 /* ViewController.swift */,
 				7417DA6E242BF3B0005FED49 /* Main.storyboard */,
 				7417DA71242BF3B1005FED49 /* Assets.xcassets */,
 				7417DA73242BF3B1005FED49 /* LaunchScreen.storyboard */,
@@ -102,6 +103,8 @@
 		7417DA7E242BF3FF005FED49 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7417DA6C242BF3B0005FED49 /* ViewController.swift */,
+				748E8340242D2BD6008BD098 /* SearchResultsController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				7417DA6D242BF3B0005FED49 /* ViewController.swift in Sources */,
 				7417DA69242BF3B0005FED49 /* AppDelegate.swift in Sources */,
 				7417DA88242BFDAD005FED49 /* Stub.swift in Sources */,
+				748E8341242D2BD6008BD098 /* SearchResultsController.swift in Sources */,
 				7417DA80242BF419005FED49 /* Artist.swift in Sources */,
 				7417DA6B242BF3B0005FED49 /* SceneDelegate.swift in Sources */,
 				7417DA82242BF5A4005FED49 /* Genre.swift in Sources */,
