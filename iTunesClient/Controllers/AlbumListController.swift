@@ -13,9 +13,12 @@ class AlbumListController: UITableViewController {
     private struct Constants {
         static let AlbumCellHeight: CGFloat = 80
     }
+    
+    var artist: Artist!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = artist.name
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
