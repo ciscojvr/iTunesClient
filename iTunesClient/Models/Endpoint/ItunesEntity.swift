@@ -8,17 +8,15 @@
 
 import Foundation
 
-enum ItunesEntity {
-    case movie
-    case podcast
-    case music(MusicEntity)
-    case musicVideo
-    case audiobook
-    case shortFilm
-    case tvShow
-    case software
-    case ebook
-    case all
+protocol ItunesEntity: QueryItemProvider {
+    var entityName: String { get }
+    
+}
+
+extension ItunesEntity {
+    var queryItem: URLQueryItem {
+        return URLQueryItem(name: "entity", value: entityName)
+    }
 }
 
 enum MusicEntity: String {
@@ -30,8 +28,8 @@ enum MusicEntity: String {
     case song
 }
 
-extension MusicEntity: CustomStringConvertible {
-    var description: String {
+extension MusicEntity: ItunesEntity {
+    var entityName: String {
         return self.rawValue
     }
 }

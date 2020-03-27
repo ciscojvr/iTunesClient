@@ -32,6 +32,7 @@
 		748E835E242DD25C008BD098 /* ItunesMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E835D242DD25C008BD098 /* ItunesMedia.swift */; };
 		748E8360242DD2D9008BD098 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E835F242DD2D9008BD098 /* Endpoint.swift */; };
 		749875B3242E9CD300F8CAA2 /* ItunesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875B2242E9CD300F8CAA2 /* ItunesEntity.swift */; };
+		749875B5242EA16700F8CAA2 /* QueryItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875B4242EA16700F8CAA2 /* QueryItemProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		748E835D242DD25C008BD098 /* ItunesMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesMedia.swift; sourceTree = "<group>"; };
 		748E835F242DD2D9008BD098 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		749875B2242E9CD300F8CAA2 /* ItunesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesEntity.swift; sourceTree = "<group>"; };
+		749875B4242EA16700F8CAA2 /* QueryItemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryItemProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				748E835D242DD25C008BD098 /* ItunesMedia.swift */,
 				748E835F242DD2D9008BD098 /* Endpoint.swift */,
 				749875B2242E9CD300F8CAA2 /* ItunesEntity.swift */,
+				749875B4242EA16700F8CAA2 /* QueryItemProvider.swift */,
 			);
 			path = Endpoint;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				748E8360242DD2D9008BD098 /* Endpoint.swift in Sources */,
 				7417DA88242BFDAD005FED49 /* Stub.swift in Sources */,
 				748E8341242D2BD6008BD098 /* SearchResultsController.swift in Sources */,
+				749875B5242EA16700F8CAA2 /* QueryItemProvider.swift in Sources */,
 				748E8355242D9575008BD098 /* AlbumDetailDataSource.swift in Sources */,
 				7417DA80242BF419005FED49 /* Artist.swift in Sources */,
 				748E834F242D9098008BD098 /* AlbumDetailController.swift in Sources */,
