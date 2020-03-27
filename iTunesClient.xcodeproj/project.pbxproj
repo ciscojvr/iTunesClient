@@ -34,6 +34,8 @@
 		749875B3242E9CD300F8CAA2 /* ItunesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875B2242E9CD300F8CAA2 /* ItunesEntity.swift */; };
 		749875B5242EA16700F8CAA2 /* QueryItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875B4242EA16700F8CAA2 /* QueryItemProvider.swift */; };
 		749875B7242EA60500F8CAA2 /* ItunesAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875B6242EA60500F8CAA2 /* ItunesAttribute.swift */; };
+		749875BA242EB7AA00F8CAA2 /* JSONDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875B9242EB7AA00F8CAA2 /* JSONDownloader.swift */; };
+		749875BC242EB83500F8CAA2 /* ItunesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875BB242EB83500F8CAA2 /* ItunesError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		749875B2242E9CD300F8CAA2 /* ItunesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesEntity.swift; sourceTree = "<group>"; };
 		749875B4242EA16700F8CAA2 /* QueryItemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryItemProvider.swift; sourceTree = "<group>"; };
 		749875B6242EA60500F8CAA2 /* ItunesAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesAttribute.swift; sourceTree = "<group>"; };
+		749875B9242EB7AA00F8CAA2 /* JSONDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDownloader.swift; sourceTree = "<group>"; };
+		749875BB242EB83500F8CAA2 /* ItunesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		7417DA67242BF3B0005FED49 /* iTunesClient */ = {
 			isa = PBXGroup;
 			children = (
+				749875B8242EB79100F8CAA2 /* Networking */,
 				748E834B242D4F38008BD098 /* View Models */,
 				748E8342242D4368008BD098 /* Data Sources */,
 				7417DA7E242BF3FF005FED49 /* Controllers */,
@@ -176,6 +181,15 @@
 				749875B4242EA16700F8CAA2 /* QueryItemProvider.swift */,
 			);
 			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		749875B8242EB79100F8CAA2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				749875B9242EB7AA00F8CAA2 /* JSONDownloader.swift */,
+				749875BB242EB83500F8CAA2 /* ItunesError.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,7 @@
 				7417DA69242BF3B0005FED49 /* AppDelegate.swift in Sources */,
 				748E8353242D930A008BD098 /* AlbumDetailViewModel.swift in Sources */,
 				748E8360242DD2D9008BD098 /* Endpoint.swift in Sources */,
+				749875BC242EB83500F8CAA2 /* ItunesError.swift in Sources */,
 				7417DA88242BFDAD005FED49 /* Stub.swift in Sources */,
 				748E8341242D2BD6008BD098 /* SearchResultsController.swift in Sources */,
 				749875B5242EA16700F8CAA2 /* QueryItemProvider.swift in Sources */,
@@ -271,6 +286,7 @@
 				748E8344242D438A008BD098 /* SearchResultsDataSource.swift in Sources */,
 				7417DA82242BF5A4005FED49 /* Genre.swift in Sources */,
 				7417DA84242BF636005FED49 /* Album.swift in Sources */,
+				749875BA242EB7AA00F8CAA2 /* JSONDownloader.swift in Sources */,
 				748E8357242D95C6008BD098 /* SongCell.swift in Sources */,
 				748E8348242D4B64008BD098 /* AlbumCell.swift in Sources */,
 			);
