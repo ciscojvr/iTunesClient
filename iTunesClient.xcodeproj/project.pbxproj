@@ -36,6 +36,7 @@
 		749875B7242EA60500F8CAA2 /* ItunesAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875B6242EA60500F8CAA2 /* ItunesAttribute.swift */; };
 		749875BA242EB7AA00F8CAA2 /* JSONDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875B9242EB7AA00F8CAA2 /* JSONDownloader.swift */; };
 		749875BC242EB83500F8CAA2 /* ItunesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875BB242EB83500F8CAA2 /* ItunesError.swift */; };
+		749875BE242EB99100F8CAA2 /* ItunesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875BD242EB99100F8CAA2 /* ItunesAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		749875B6242EA60500F8CAA2 /* ItunesAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesAttribute.swift; sourceTree = "<group>"; };
 		749875B9242EB7AA00F8CAA2 /* JSONDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDownloader.swift; sourceTree = "<group>"; };
 		749875BB242EB83500F8CAA2 /* ItunesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesError.swift; sourceTree = "<group>"; };
+		749875BD242EB99100F8CAA2 /* ItunesAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			children = (
 				749875B9242EB7AA00F8CAA2 /* JSONDownloader.swift */,
 				749875BB242EB83500F8CAA2 /* ItunesError.swift */,
+				749875BD242EB99100F8CAA2 /* ItunesAPIClient.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				749875BC242EB83500F8CAA2 /* ItunesError.swift in Sources */,
 				7417DA88242BFDAD005FED49 /* Stub.swift in Sources */,
 				748E8341242D2BD6008BD098 /* SearchResultsController.swift in Sources */,
+				749875BE242EB99100F8CAA2 /* ItunesAPIClient.swift in Sources */,
 				749875B5242EA16700F8CAA2 /* QueryItemProvider.swift in Sources */,
 				748E8355242D9575008BD098 /* AlbumDetailDataSource.swift in Sources */,
 				7417DA80242BF419005FED49 /* Artist.swift in Sources */,

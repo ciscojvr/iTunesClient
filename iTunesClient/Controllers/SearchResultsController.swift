@@ -13,6 +13,8 @@ class SearchResultsController: UITableViewController {
     let searchController = UISearchController(searchResultsController: nil)
     
     let dataSource = SearchResultsDataSource()
+    
+    let client = ItunesAPIClient()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,7 +62,13 @@ class SearchResultsController: UITableViewController {
 
 extension SearchResultsController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
-        dataSource.update(with: [Stub.artist])
-        tableView.reloadData()
+//        dataSource.update(with: [Stub.artist])
+//        tableView.reloadData()
+        
+        // Note that we're referring to self inside a closure that is captured by self itself since this client object is a stored property. So we need to capture self weakly to avoid a reference cycle.
+        client.searchForArtists(withTerm: searchController.searchBar.text!) { [weak self] artists, error in
+            self?.dataSource.update(with: artists)
+            self?.tableView.reloadData()
+        }
     }
 }
