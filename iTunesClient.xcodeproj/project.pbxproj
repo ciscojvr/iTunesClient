@@ -31,6 +31,7 @@
 		748E8359242D9682008BD098 /* SongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E8358242D9682008BD098 /* SongViewModel.swift */; };
 		748E835E242DD25C008BD098 /* ItunesMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E835D242DD25C008BD098 /* ItunesMedia.swift */; };
 		748E8360242DD2D9008BD098 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E835F242DD2D9008BD098 /* Endpoint.swift */; };
+		749875B3242E9CD300F8CAA2 /* ItunesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875B2242E9CD300F8CAA2 /* ItunesEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		748E8358242D9682008BD098 /* SongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewModel.swift; sourceTree = "<group>"; };
 		748E835D242DD25C008BD098 /* ItunesMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesMedia.swift; sourceTree = "<group>"; };
 		748E835F242DD2D9008BD098 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		749875B2242E9CD300F8CAA2 /* ItunesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 			children = (
 				748E835D242DD25C008BD098 /* ItunesMedia.swift */,
 				748E835F242DD2D9008BD098 /* Endpoint.swift */,
+				749875B2242E9CD300F8CAA2 /* ItunesEntity.swift */,
 			);
 			path = Endpoint;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			files = (
 				748E834D242D4F61008BD098 /* AlbumCellViewModel.swift in Sources */,
 				7417DA86242BF947005FED49 /* Song.swift in Sources */,
+				749875B3242E9CD300F8CAA2 /* ItunesEntity.swift in Sources */,
 				7417DA6D242BF3B0005FED49 /* ViewController.swift in Sources */,
 				748E8346242D4A4B008BD098 /* AlbumListController.swift in Sources */,
 				748E835E242DD25C008BD098 /* ItunesMedia.swift in Sources */,
