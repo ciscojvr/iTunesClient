@@ -38,4 +38,9 @@ class SearchResultsDataSource: NSObject, UITableViewDataSource {
         
         return cell
     }
+    
+    // MARK: – Helper
+    func artist(at indexPath: IndexPath) -> Artist {
+        return data[indexPath.row]
+    }
 }
