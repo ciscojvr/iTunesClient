@@ -33,6 +33,7 @@
 		748E8360242DD2D9008BD098 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E835F242DD2D9008BD098 /* Endpoint.swift */; };
 		749875B3242E9CD300F8CAA2 /* ItunesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875B2242E9CD300F8CAA2 /* ItunesEntity.swift */; };
 		749875B5242EA16700F8CAA2 /* QueryItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875B4242EA16700F8CAA2 /* QueryItemProvider.swift */; };
+		749875B7242EA60500F8CAA2 /* ItunesAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875B6242EA60500F8CAA2 /* ItunesAttribute.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		748E835F242DD2D9008BD098 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		749875B2242E9CD300F8CAA2 /* ItunesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesEntity.swift; sourceTree = "<group>"; };
 		749875B4242EA16700F8CAA2 /* QueryItemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryItemProvider.swift; sourceTree = "<group>"; };
+		749875B6242EA60500F8CAA2 /* ItunesAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesAttribute.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,9 +169,10 @@
 		748E835A242DD220008BD098 /* Endpoint */ = {
 			isa = PBXGroup;
 			children = (
-				748E835D242DD25C008BD098 /* ItunesMedia.swift */,
 				748E835F242DD2D9008BD098 /* Endpoint.swift */,
+				748E835D242DD25C008BD098 /* ItunesMedia.swift */,
 				749875B2242E9CD300F8CAA2 /* ItunesEntity.swift */,
+				749875B6242EA60500F8CAA2 /* ItunesAttribute.swift */,
 				749875B4242EA16700F8CAA2 /* QueryItemProvider.swift */,
 			);
 			path = Endpoint;
@@ -250,6 +253,7 @@
 				7417DA86242BF947005FED49 /* Song.swift in Sources */,
 				749875B3242E9CD300F8CAA2 /* ItunesEntity.swift in Sources */,
 				7417DA6D242BF3B0005FED49 /* ViewController.swift in Sources */,
+				749875B7242EA60500F8CAA2 /* ItunesAttribute.swift in Sources */,
 				748E8346242D4A4B008BD098 /* AlbumListController.swift in Sources */,
 				748E835E242DD25C008BD098 /* ItunesMedia.swift in Sources */,
 				7417DA69242BF3B0005FED49 /* AppDelegate.swift in Sources */,
