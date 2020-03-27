@@ -11,6 +11,11 @@ import UIKit
 class AlbumDetailController: UITableViewController {
     
     var album: Album?
+    
+    // lazy stored property that takes a closure. It allows us to refer it to a stored property of this class because we are essentially deferring intialization of this property.
+    lazy var dataSource: AlbumDetailDataSource = {
+        return AlbumDetailDataSource(songs: self.album!.songs)
+    }()
 
     @IBOutlet weak var artworkView: UIImageView!
     @IBOutlet weak var albumTitleLabel: UILabel!
@@ -23,6 +28,8 @@ class AlbumDetailController: UITableViewController {
         if let album = album {
             configure(with: album)
         }
+        
+        tableView.dataSource = dataSource
     }
     
     func configure(with album: Album) {
