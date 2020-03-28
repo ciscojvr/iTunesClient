@@ -37,6 +37,7 @@
 		749875BA242EB7AA00F8CAA2 /* JSONDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875B9242EB7AA00F8CAA2 /* JSONDownloader.swift */; };
 		749875BC242EB83500F8CAA2 /* ItunesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875BB242EB83500F8CAA2 /* ItunesError.swift */; };
 		749875BE242EB99100F8CAA2 /* ItunesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875BD242EB99100F8CAA2 /* ItunesAPIClient.swift */; };
+		749875C0242ED39600F8CAA2 /* ArtworkDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875BF242ED39600F8CAA2 /* ArtworkDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		749875B9242EB7AA00F8CAA2 /* JSONDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDownloader.swift; sourceTree = "<group>"; };
 		749875BB242EB83500F8CAA2 /* ItunesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesError.swift; sourceTree = "<group>"; };
 		749875BD242EB99100F8CAA2 /* ItunesAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesAPIClient.swift; sourceTree = "<group>"; };
+		749875BF242ED39600F8CAA2 /* ArtworkDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 				749875B9242EB7AA00F8CAA2 /* JSONDownloader.swift */,
 				749875BB242EB83500F8CAA2 /* ItunesError.swift */,
 				749875BD242EB99100F8CAA2 /* ItunesAPIClient.swift */,
+				749875BF242ED39600F8CAA2 /* ArtworkDownloader.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				748E8359242D9682008BD098 /* SongViewModel.swift in Sources */,
 				748E8344242D438A008BD098 /* SearchResultsDataSource.swift in Sources */,
 				7417DA82242BF5A4005FED49 /* Genre.swift in Sources */,
+				749875C0242ED39600F8CAA2 /* ArtworkDownloader.swift in Sources */,
 				7417DA84242BF636005FED49 /* Album.swift in Sources */,
 				749875BA242EB7AA00F8CAA2 /* JSONDownloader.swift in Sources */,
 				748E8357242D95C6008BD098 /* SongCell.swift in Sources */,
