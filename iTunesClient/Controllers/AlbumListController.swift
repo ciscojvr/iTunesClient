@@ -68,6 +68,7 @@ class AlbumListController: UITableViewController {
                 
                 client.lookupAlbum(withId: selectedAlbum.id) { album, error in
                     albumDetailController.album = album
+                    albumDetailController.artworkView.image = selectedAlbum.artwork
                 }
 //                albumDetailController.album = selectedAlbum
             }
