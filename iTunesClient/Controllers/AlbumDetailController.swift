@@ -10,13 +10,18 @@ import UIKit
 
 class AlbumDetailController: UITableViewController {
     
-    var album: Album?
+    var album: Album? {
+        didSet { // didSet property observer that tells us if the album actually existed
+            if let album = album {
+                configure(with: album)
+                dataSource.update(with: album.songs)
+                tableView.reloadData()
+            }
+        }
+    }
     
-    // lazy stored property that takes a closure. It allows us to refer it to a stored property of this class because we are essentially deferring intialization of this property.
-    lazy var dataSource: AlbumDetailDataSource = {
-        return AlbumDetailDataSource(songs: self.album!.songs)
-    }()
-
+    var dataSource = AlbumDetailDataSource(songs: [])
+        
     @IBOutlet weak var artworkView: UIImageView!
     @IBOutlet weak var albumTitleLabel: UILabel!
     @IBOutlet weak var albumGenreLabel: UILabel!
@@ -28,7 +33,6 @@ class AlbumDetailController: UITableViewController {
         if let album = album {
             configure(with: album)
         }
-        
         tableView.dataSource = dataSource
     }
     
