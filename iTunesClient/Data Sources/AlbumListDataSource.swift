@@ -40,7 +40,7 @@ class AlbumListDataSource: NSObject, UITableViewDataSource {
         albumCell.accessoryType = .disclosureIndicator
         
         if album.artworkState == .placeholder {
-            
+            downloadArtworkForAlbum(album, atIndexPath: indexPath)
         }
         
         return albumCell
