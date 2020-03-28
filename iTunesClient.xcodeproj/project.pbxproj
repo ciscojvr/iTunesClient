@@ -38,6 +38,7 @@
 		749875BC242EB83500F8CAA2 /* ItunesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875BB242EB83500F8CAA2 /* ItunesError.swift */; };
 		749875BE242EB99100F8CAA2 /* ItunesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875BD242EB99100F8CAA2 /* ItunesAPIClient.swift */; };
 		749875C0242ED39600F8CAA2 /* ArtworkDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875BF242ED39600F8CAA2 /* ArtworkDownloader.swift */; };
+		749875C2242ED78800F8CAA2 /* PendingOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749875C1242ED78800F8CAA2 /* PendingOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		749875BB242EB83500F8CAA2 /* ItunesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesError.swift; sourceTree = "<group>"; };
 		749875BD242EB99100F8CAA2 /* ItunesAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesAPIClient.swift; sourceTree = "<group>"; };
 		749875BF242ED39600F8CAA2 /* ArtworkDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDownloader.swift; sourceTree = "<group>"; };
+		749875C1242ED78800F8CAA2 /* PendingOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 				749875BB242EB83500F8CAA2 /* ItunesError.swift */,
 				749875BD242EB99100F8CAA2 /* ItunesAPIClient.swift */,
 				749875BF242ED39600F8CAA2 /* ArtworkDownloader.swift */,
+				749875C1242ED78800F8CAA2 /* PendingOperations.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				7417DA80242BF419005FED49 /* Artist.swift in Sources */,
 				748E834F242D9098008BD098 /* AlbumDetailController.swift in Sources */,
 				7417DA6B242BF3B0005FED49 /* SceneDelegate.swift in Sources */,
+				749875C2242ED78800F8CAA2 /* PendingOperations.swift in Sources */,
 				748E834A242D4E28008BD098 /* AlbumListDataSource.swift in Sources */,
 				748E8359242D9682008BD098 /* SongViewModel.swift in Sources */,
 				748E8344242D438A008BD098 /* SearchResultsDataSource.swift in Sources */,
